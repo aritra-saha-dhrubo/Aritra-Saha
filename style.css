@@ -1,0 +1,835 @@
+ 
+body{
+    margin: 0px;
+    background-color:black;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+footer {
+    background-color: rgba(240, 240, 240, 0.8); /* Adjust the alpha channel for transparency */
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer p {
+    margin: 0;
+}
+
+footer img {
+    max-width: 30px; /* Adjust the maximum width of the logos */
+    margin-left: 10px; /* Add margin between logos */
+}
+h1{
+    text-align: center;
+}
+.navbar ul{
+    list-style-type: none;
+    background-color: hsl(0,0%,25%);
+    margin: 0%;
+    overflow: hidden;
+}
+.navbar a{
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    padding-left: 35px;
+    padding-right: 35px;
+    display: block;
+    text-align: center;    
+}
+.navbar a:hover{
+    background-color: hsl(0, 0%,10%);
+}
+.navbar li{
+    float: left;
+    margin: auto;
+    text-align: center;
+}
+.navbar{
+    width:100vw;
+}
+.education{
+    padding-left: 2%;
+    border-radius:20px;
+    box-shadow: 0px 4px 64px 0px rgba(0,0,0,0.2);
+    color:whitesmoke; 
+    background-color: gray;
+    height:24vh; 
+    width: 95vw;
+}
+.educationmain{
+    padding-left: 2%;
+    text-align: center; 
+}
+.educationmain h1{
+    color: whitesmoke;
+}
+.education img{
+    height:100px; 
+    width: 175px;
+}
+.education h2{
+    text-align: center;
+}
+#homePageHello{
+    height:500px;
+    width:1200px;
+    margin:70px 70px;
+    border-radius:20px; 
+    box-shadow:0px 4px 64px 0px rgba(0,0,0,0.2); 
+    color:whitesmoke; 
+    background-color: gray;
+}
+
+
+.indexcss div{
+    margin: 1em;
+    text-align: center;
+}
+.indexcss h4{
+    color: red; 
+    font-size: 40pt;
+}
+.myprojects{
+    text-align: center; 
+    padding-left: 2%;
+}
+.myprojects h1{
+    color: whitesmoke;
+}
+.indexcss img{
+    height: 420px;
+    width:450px;
+    padding: 50px; 
+    padding-top:50px;
+    color: rgba(182, 181, 181, 0.281); 
+    padding-bottom: 10px;
+    
+}
+.hobbycss{
+    padding-left: 2%;
+    text-align: center;
+    color: whitesmoke;
+    height:24vh; 
+    width: 95vw;
+}
+.hobbycss2{
+    border-radius:20px;
+    box-shadow: 0px 4px 64px 0px rgba(0,0,0,0.2);
+    color:whitesmoke; 
+    background-color: gray;
+    height:24vh; 
+    width: 95vw;
+    background-color: gray;
+}
+.hobbycss2 p{
+    font-size: large;
+}
+.about{
+    display: flex;
+}
+.about div{
+    height: auto; 
+    width: 1200px; 
+    margin: 70px 70px; 
+    border-radius: 20px; 
+    box-shadow: 0px 4px 64px 0px rgba(0,0,0,0.2); 
+    color:whitesmoke; 
+    background-color: gray;
+}
+.about img{
+    height: 500px; 
+    width: 550px; 
+    padding-top: 80px;
+}
+.about h1{
+    text-align: center;  
+    margin-top: 20px;
+}
+.about h2{
+    line-height: 2em; 
+    padding-left: 30px;
+}
+.about h3{
+    line-height: 2em; 
+    padding-left: 30px;
+}
+
+.main.indexcss {
+    display: flex;
+    flex-wrap: wrap;
+}
+.myprojects{
+    color: whitesmoke;
+}
+.homediv{
+    display: flex;
+}
+.homediv h1{
+    text-align: center;  
+    margin-top: 20px;
+}
+.homediv h3{
+    margin: 70px 70px; 
+    text-align: center; 
+    line-height: 2em;
+}
+.homediv img{
+    height: 500px; 
+    width: 550px; 
+    padding-top: 80px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:600px) {
+    .homediv img{
+        height: 0px;
+        width: 0px;
+    }
+    .homediv h3{
+        line-height: 1em;
+        text-align: left;
+        margin: 35px 70px
+    }
+    .indexcss{
+        text-align: center;
+        display: flex;
+        align-content: stretch;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-end;
+        flex-wrap: nowrap;
+    }
+    .indexcss img{
+            height: 250px;
+            width: 250px;
+        }
+    #homePageHello {
+        height: 385px;
+        margin: 54px 27px;
+    }
+    body{
+       max-width: 100%;
+       overflow-x: hidden;
+    }
+    .about{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .about div{
+        height: auto; 
+        width: 479px;     
+        border-radius: 20px; 
+        box-shadow: 0px 4px 64px 0px rgba(0,0,0,0.2); 
+        color:whitesmoke; 
+        background-color: gray;
+    }
+    .about img{
+        height: 500px;
+        width: 479px;
+        padding-top: 30px;
+    }
+    }
+    
+    
+    @media screen and (max-width:375px) {
+        .homediv img{
+        height: 0px;
+        width: 0px;
+    }
+    .homediv h3{
+        line-height: 1em;
+        display: contents;
+    }
+    #homePageHello {
+        height: 370px;
+        width: 342px;
+        text-align: center;
+    }
+    body{
+       max-width: 100%;
+       overflow-x: hidden;
+    }
+    .about{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .about div{
+        height: auto; 
+        width: 316px; 
+        margin: 70px 37px; 
+        border-radius: 20px; 
+        box-shadow: 0px 4px 64px 0px rgba(0,0,0,0.2); 
+        color:whitesmoke; 
+        background-color: gray;
+    }
+    .about img{
+        height: 0px;
+        width: 0px;
+    }
+    .education{
+        height: 32vh;
+    }
+    }
+
+
+    @media screen and (max-width:415px) {
+    .homediv img{
+        height: 0px;
+        width: 0px;
+    }
+    .homediv h3{
+        line-height: 1em;
+        display: contents;
+    }
+    #homePageHello {
+        height: 326px;
+        width: 342px;
+        text-align: center;
+    }
+    body{
+       max-width: 100%;
+       overflow-x: hidden;
+    }
+    .about{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .about div{
+        height: auto; 
+        width: 316px; 
+        margin: 70px 37px; 
+        border-radius: 20px; 
+        box-shadow: 0px 4px 64px 0px rgba(0,0,0,0.2); 
+        color:whitesmoke; 
+        background-color: gray;
+    }
+    .about img{
+        height: auto; 
+        width: 316px; 
+        margin: 70px 37px;
+    }
+    .education{
+        height: 32vh;
+    }
+    }
+    @media screen and (max-width:430px) {
+        .homediv img{
+            height: 0px;
+            width: 0px;
+        }
+        .homediv h3{
+            line-height: 1em;
+            display: contents;
+        }
+        #homePageHello {
+            height: 326px;
+            width: 342px;
+            text-align: center;
+        }
+        body{
+           max-width: 100%;
+           overflow-x: hidden;
+        }
+        .about{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+        .about div{
+            height: auto; 
+            width: 316px; 
+            margin: 70px 63px; 
+            border-radius: 20px; 
+            box-shadow: 0px 4px 64px 0px rgba(0,0,0,0.2); 
+            color:whitesmoke; 
+            background-color: gray;
+        }
+        .about img{
+            height: auto; 
+            width: 316px; 
+            margin: 70px 37px;
+        }
+        .education{
+            height: 32vh;
+        }
+        }
+        @media screen and (max-width:360px) {
+            .about div{
+                margin: 70px -4px; 
+                width: 321px;
+            }
+            #homePageHello {
+                height: 374px;
+            }
+    } 
+    
+    
+
+
+
+
+       @media screen and (max-width:550px) {
+          .about div{
+            margin: 70px 37px;
+          }          
+          .body{
+            max-width: 100%;
+            overflow-x: hidden;
+          }
+          .homediv h3{
+            margin: -4px 33px;
+          }
+          .indexcss img {
+            padding: 22px;
+          }
+          .index {
+            padding: 22px;
+          }
+       }
+
+@media screen and (max-width:460px) {
+    .homediv h3{
+        margin: -4px 23px;
+    }
+    .about div{
+        width: 388px;
+    }
+}
+@media screen and (min-width: 601px) {
+    .homediv h3 {
+        margin: 70px 6px;
+        text-align: center;
+        line-height: 2em;
+    }
+    .homediv {
+        text-align: center;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .indexcss{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+}
+.about {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+}
+@media screen and (min-width: 1600px) {
+     
+body{
+    margin: 0px;
+    background-color:black;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+footer {
+    background-color: rgba(240, 240, 240, 0.8); /* Adjust the alpha channel for transparency */
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer p {
+    margin: 0;
+}
+
+footer img {
+    max-width: 30px; /* Adjust the maximum width of the logos */
+    margin-left: 10px; /* Add margin between logos */
+}
+h1{
+    text-align: center;
+}
+.navbar ul{
+    list-style-type: none;
+    background-color: hsl(0,0%,25%);
+    margin: 0%;
+    overflow: hidden;
+}
+.navbar a{
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    padding-left: 35px;
+    padding-right: 35px;
+    display: block;
+    text-align: center;    
+}
+.navbar a:hover{
+    background-color: hsl(0, 0%,10%);
+}
+.navbar li{
+    float: left;
+    margin: auto;
+    text-align: center;
+}
+.navbar{
+    width:100vw;
+}
+.education{
+    padding-left: 2%;
+    border-radius:20px;
+    box-shadow: 0px 4px 64px 0px rgba(0,0,0,0.2);
+    color:whitesmoke; 
+    background-color: gray;
+    height:24vh; 
+    width: 95vw;
+}
+.educationmain{
+    padding-left: 2%;
+    text-align: center; 
+}
+.educationmain h1{
+    color: whitesmoke;
+}
+.education img{
+    height:100px; 
+    width: 175px;
+}
+.education h2{
+    text-align: center;
+}
+#homePageHello{
+    height:500px;
+    width:1200px;
+    margin:70px 70px;
+    border-radius:20px; 
+    box-shadow:0px 4px 64px 0px rgba(0,0,0,0.2); 
+    color:whitesmoke; 
+    background-color: gray;
+}
+
+
+.indexcss div{
+    margin: 1em;
+    text-align: center;
+}
+.indexcss h4{
+    color: red; 
+    font-size: 40pt;
+}
+.myprojects{
+    text-align: center; 
+    padding-left: 2%;
+}
+.myprojects h1{
+    color: whitesmoke;
+}
+.indexcss img{
+    height: 420px;
+    width:450px;
+    padding: 30px; 
+    padding-top:50px;
+    color: rgba(182, 181, 181, 0.281); 
+    padding-bottom: 10px;
+    
+}
+.indexcss{
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+    flex-wrap:nowrap;
+}
+.hobbycss{
+    padding-left: 2%;
+    text-align: center;
+    color: whitesmoke;
+    height:24vh; 
+    width: 95vw;
+}
+.hobbycss2{
+    border-radius:20px;
+    box-shadow: 0px 4px 64px 0px rgba(0,0,0,0.2);
+    color:whitesmoke; 
+    background-color: gray;
+    height:24vh; 
+    width: 95vw;
+    background-color: gray;
+}
+.hobbycss2 p{
+    font-size: large;
+}
+.about{
+    display: flex;
+}
+.about div{
+    height: auto; 
+    width: 1200px; 
+    margin: 70px 70px; 
+    border-radius: 20px; 
+    box-shadow: 0px 4px 64px 0px rgba(0,0,0,0.2); 
+    color:whitesmoke; 
+    background-color: gray;
+}
+.about img{
+    height: 500px; 
+    width: 550px; 
+    padding-top: 80px;
+}
+.about h1{
+    text-align: center;  
+    margin-top: 20px;
+}
+.about h2{
+    line-height: 2em; 
+    padding-left: 30px;
+}
+.about h3{
+    line-height: 2em; 
+    padding-left: 30px;
+}
+
+.main.indexcss {
+    display: flex;
+    flex-wrap: wrap;
+}
+.myprojects{
+    color: whitesmoke;
+}
+.homediv h1{
+    text-align: center;  
+    margin-top: 20px;
+}
+.homediv h3{
+    margin: 70px 70px; 
+    text-align: center; 
+    line-height: 2em;
+}
+.homediv img{
+    height: 500px; 
+    width: 550px; 
+    padding-top: 80px;
+}
+.homediv{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+}
+@media screen and (min-width:1750px) {     
+        body{
+            margin: 0px;
+            background-color:black;
+            max-width: 100%;
+            overflow-x: hidden;
+        }
+        footer {
+            background-color: rgba(240, 240, 240, 0.8); /* Adjust the alpha channel for transparency */
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        footer p {
+            margin: 0;
+        }
+        
+        footer img {
+            max-width: 30px; /* Adjust the maximum width of the logos */
+            margin-left: 10px; /* Add margin between logos */
+        }
+        h1{
+            text-align: center;
+        }
+        .navbar ul{
+            list-style-type: none;
+            background-color: hsl(0,0%,25%);
+            margin: 0%;
+            overflow: hidden;
+        }
+        .navbar a{
+            color: white;
+            text-decoration: none;
+            padding: 5px;
+            padding-left: 35px;
+            padding-right: 35px;
+            display: block;
+            text-align: center;    
+        }
+        .navbar a:hover{
+            background-color: hsl(0, 0%,10%);
+        }
+        .navbar li{
+            float: left;
+            margin: auto;
+            text-align: center;
+        }
+        .navbar{
+            width:100vw;
+        }
+        .education{
+            padding-left: 2%;
+            border-radius:20px;
+            box-shadow: 0px 4px 64px 0px rgba(0,0,0,0.2);
+            color:whitesmoke; 
+            background-color: gray;
+            height:24vh; 
+            width: 95vw;
+        }
+        .educationmain{
+            padding-left: 2%;
+            text-align: center; 
+        }
+        .educationmain h1{
+            color: whitesmoke;
+        }
+        .education img{
+            height:100px; 
+            width: 175px;
+        }
+        .education h2{
+            text-align: center;
+        }
+        #homePageHello{
+            height:500px;
+            width:1200px;
+            margin:70px 70px;
+            border-radius:20px; 
+            box-shadow:0px 4px 64px 0px rgba(0,0,0,0.2); 
+            color:whitesmoke; 
+            background-color: gray;
+        }
+        
+        
+        .indexcss div{
+            margin: 1em;
+            text-align: center;
+        }
+        .indexcss h4{
+            color: red; 
+            font-size: 40pt;
+        }
+        .myprojects{
+            text-align: center; 
+            padding-left: 2%;
+        }
+        .myprojects h1{
+            color: whitesmoke;
+        }
+        .indexcss img{
+            height: 420px;
+            width:450px;
+            padding: 50px; 
+            padding-top:50px;
+            color: rgba(182, 181, 181, 0.281); 
+            padding-bottom: 10px;
+            
+        }
+        .indexcss{
+            display: flex;
+            text-align: center;
+            flex-direction: row;
+            flex-wrap:nowrap;
+        }
+        .hobbycss{
+            padding-left: 2%;
+            text-align: center;
+            color: whitesmoke;
+            height:24vh; 
+            width: 95vw;
+        }
+        .hobbycss2{
+            border-radius:20px;
+            box-shadow: 0px 4px 64px 0px rgba(0,0,0,0.2);
+            color:whitesmoke; 
+            background-color: gray;
+            height:24vh; 
+            width: 95vw;
+            background-color: gray;
+        }
+        .hobbycss2 p{
+            font-size: large;
+        }
+        .about{
+            display: flex;
+        }
+        .about div{
+            height: auto; 
+            width: 1200px; 
+            margin: 70px 70px; 
+            border-radius: 20px; 
+            box-shadow: 0px 4px 64px 0px rgba(0,0,0,0.2); 
+            color:whitesmoke; 
+            background-color: gray;
+        }
+        .about img{
+            height: 500px; 
+            width: 550px; 
+            padding-top: 80px;
+        }
+        .about h1{
+            text-align: center;  
+            margin-top: 20px;
+        }
+        .about h2{
+            line-height: 2em; 
+            padding-left: 30px;
+        }
+        .about h3{
+            line-height: 2em; 
+            padding-left: 30px;
+        }
+        
+        .main.indexcss {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .myprojects{
+            color: whitesmoke;
+        }
+        .homediv h1{
+            text-align: center;  
+            margin-top: 20px;
+        }
+        .homediv h3{
+            margin: 70px 70px; 
+            text-align: center; 
+            line-height: 2em;
+        }
+        .homediv img{
+            height: 500px; 
+            width: 550px; 
+            padding-top: 80px;
+        }
+        .homediv{
+            text-align: center;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            flex-wrap: nowrap;
+        }
+    }
+
+    
+
